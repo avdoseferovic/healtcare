@@ -13,6 +13,14 @@ jobs:
       - name: Clone repository
         uses: actions/checkout@v3
 
+      - name: Download Deno
+        uses: denolib/setup-deno@master
+        with:
+          deno-version: v1.29.1
+
+      - name: Check format
+        run: deno cache
+
       # TODO: add a build step here
 
       - name: Upload to Deno Deploy
