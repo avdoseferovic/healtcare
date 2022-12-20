@@ -19,7 +19,7 @@ jobs:
           deno-version: v1.29.1
 
       - name: Check format
-        run: deno cache
+        run: deno cache main.ts
 
       # TODO: add a build step here
 
