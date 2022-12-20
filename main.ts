@@ -1,4 +1,4 @@
-import PocketBase from "npm:pocketbase";
+import PocketBase from "pocketbase";
 
 const pb = new PocketBase('https://pb-avdo.fly.dev');
 

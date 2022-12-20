@@ -1,0 +1,5 @@
+{
+    "imports": {
+        "pocketbase": "https://esm.sh/pocketbase"
+    }
+  }

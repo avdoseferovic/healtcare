@@ -1,0 +1,7 @@
+{
+  "version": "2",
+  "remote": {
+    "https://esm.sh/pocketbase@0.9.0": "3c260d4beb6c0aec03be2f3970f54f5b8cdaacac9b2620b75fadae4766c85a96",
+    "https://esm.sh/v99/pocketbase@0.9.0/deno/pocketbase.js": "ba1f0edcba2d5873ea6e431616b068e93a4101c6732c4ce4b40204bea8796d30"
+  }
+}
