@@ -18,13 +18,13 @@ jobs:
         with:
           deno-version: v1.29.1
 
-      - name: Check format
+      - name: Cache
         run: deno cache main.ts
 
       # TODO: add a build step here
 
       - name: Upload to Deno Deploy
-        uses: denoland/deployctl@v1
+        uses: denoland/deployctl@v1.4.0
         with:
           project: "avdoseferovic-healtcare"
           entrypoint: "./main.ts" # TODO: update entrypoint
