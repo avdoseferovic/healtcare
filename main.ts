@@ -1,4 +1,7 @@
-import { serve } from "https://deno.land/std@0.155.0/http/server.ts";
-console.log('TEST')
+import PocketBase from "npm:pocketbase";
 
-serve((req: Request) => new Response("Hello World"));
+const pb = new PocketBase('https://pb-avdo.fly.dev');
+
+const record = await pb.collection('users').getOne('jkyehf2bnd7qy5f');
+
+console.log(record);
