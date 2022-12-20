@@ -24,7 +24,7 @@ jobs:
       # TODO: add a build step here
 
       - name: Upload to Deno Deploy
-        uses: denoland/deployctl@v1.4.0
+        uses: denoland/deployctl@v1
         with:
           project: "avdoseferovic-healtcare"
           entrypoint: "./main.ts" # TODO: update entrypoint
